@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper it accompanies."
+title: "rfpipe: reproducible pipeline for explainable neural forecasting of rainfall-distribution shifts"
+abstract: >-
+  End-to-end pipeline reproducing every experiment, statistical test, table and
+  result figure in "Explainable Neural Forecasting of Rainfall-Distribution
+  Shifts under Hydrological Data Scarcity": divergence-target construction from
+  daily reanalysis, a fourteen-model comparison under chronological splits,
+  Friedman / Iman-Davenport / Nemenyi / Wilcoxon analysis with effect sizes,
+  attribution diagnostics, flood-proxy validation, and an ablation of daily
+  post-processing components.
+type: software
+license: MIT
+version: 1.0.0
+date-released: "2026-10-14"
+repository-code: "https://github.com/Pauli2104/Explainable-Neural-Forecasting-of-Rainfall-Distribution-Shifts-under-Hydrological-Data-Scarcity"
+keywords:
+  - hydrology
+  - rainfall
+  - distribution shift
+  - explainable machine learning
+  - reproducibility
+  - small-sample inference
+authors:
+  - family-names: "Otaño"
+    given-names: "Paula"
+    affiliation: "Universidad Tecnológica Nacional, Facultad Regional Córdoba, Córdoba, Argentina"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: add before release
+  # TODO: list the remaining co-authors in the agreed submission order, with ORCID iDs.
+
+preferred-citation:
+  type: article
+  title: "Explainable Neural Forecasting of Rainfall-Distribution Shifts under Hydrological Data Scarcity"
+  journal: "Stochastic Environmental Research and Risk Assessment"
+  year: 2026
+  status: submitted
+  authors:
+    - family-names: "Otaño"
+      given-names: "Paula"
+  # TODO: complete the author list, and add doi/volume/pages once accepted.
