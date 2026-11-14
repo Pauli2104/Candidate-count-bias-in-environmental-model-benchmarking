@@ -1,0 +1,15 @@
+# Test MASE for the thirteen models of the ORIGINAL run, transcribed verbatim from
+# Table "tab:full" of the manuscript. This is not an output of this pipeline: it is the
+# earlier, independent run, included so that the audit applied to it in the paper is
+# reproducible from a file rather than from a number in prose.
+# family: neural = TFT, TCN, LSTM, GRU, MLP;  conventional = the rest.
+block,ExpSm,TFT,TCN,Pers,LSTM,GRU,XGB,ARIMA,RF,Ridge,Clim,Lin,MLP
+Catamarca/DB,1.054,0.843,1.095,1.038,1.010,1.148,1.018,1.800,1.081,2.093,2.075,2.087,7.708
+Catamarca/DW,1.878,1.874,1.841,1.967,1.853,2.111,1.862,1.874,1.904,3.573,1.878,3.706,1.684
+Catamarca/KL,0.615,0.450,0.564,0.646,0.658,0.437,0.651,1.286,0.697,1.506,1.579,1.566,2.061
+Cordoba/DB,1.183,1.355,1.573,1.195,1.397,1.482,1.898,2.115,1.863,1.168,2.341,1.249,13.598
+Cordoba/DW,0.643,0.643,0.669,0.904,0.690,0.677,0.861,0.622,0.836,0.968,0.643,1.004,1.183
+Cordoba/KL,0.842,1.067,1.251,0.519,1.011,1.229,1.628,1.616,1.526,0.987,1.839,1.020,3.021
+LaMadrid/DB,0.818,1.673,0.916,0.810,0.813,0.625,1.297,1.614,1.057,4.264,2.148,4.355,19.723
+LaMadrid/DW,1.674,1.457,1.626,1.644,1.752,1.654,1.742,1.671,1.723,1.861,1.674,1.878,1.848
+LaMadrid/KL,1.013,1.289,0.877,0.894,0.886,0.914,1.124,1.836,1.281,2.962,2.260,2.998,4.512
